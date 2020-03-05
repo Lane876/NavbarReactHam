@@ -1,0 +1,45 @@
+.navbar {
+  position: fixed;
+  height: 10vh;
+  background: gray;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.logo a {
+  text-decoration: none;
+}
+.logo a:hover,
+.logo a:active {
+  color: tomato;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+}
+
+.nav-links ul li a:hover,
+.nav-links ul li a:active {
+  color: tomato;
+}
+
+@media (max-width: 769px) {
+  .nav-links {
+    display: none;
+  }
+}
